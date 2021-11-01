@@ -45,6 +45,23 @@ nav {
     }
 }
 
+.mainpage{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainpage div {
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.mainpage :first-child{
+    grid-column: 1/-1;
+}
+
+
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
